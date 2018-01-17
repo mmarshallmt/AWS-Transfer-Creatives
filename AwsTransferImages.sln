@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AWSTransfer", "AWSTransfer\AWSTransfer.vbproj", "{4A9F17FD-48CA-49BC-A3C2-E4F50865D57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseLibrary", "..\..\Mark\ClassifyPro-app\4.2 Classify Promo\EnterpriseLibrary\EnterpriseLibrary.csproj", "{F26358AF-11BF-49F5-90EA-CDAACD39B2E4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AwsConvertMp4", "AwsConvertMp4\AwsConvertMp4.vbproj", "{8740B436-797C-497A-9DBC-63ADD131DCA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A9F17FD-48CA-49BC-A3C2-E4F50865D57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9F17FD-48CA-49BC-A3C2-E4F50865D57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9F17FD-48CA-49BC-A3C2-E4F50865D57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9F17FD-48CA-49BC-A3C2-E4F50865D57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26358AF-11BF-49F5-90EA-CDAACD39B2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26358AF-11BF-49F5-90EA-CDAACD39B2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26358AF-11BF-49F5-90EA-CDAACD39B2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26358AF-11BF-49F5-90EA-CDAACD39B2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8740B436-797C-497A-9DBC-63ADD131DCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8740B436-797C-497A-9DBC-63ADD131DCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8740B436-797C-497A-9DBC-63ADD131DCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8740B436-797C-497A-9DBC-63ADD131DCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
